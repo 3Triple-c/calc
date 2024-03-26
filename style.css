@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(60deg, #00ffff, #ff02ff);
+}
+
+.atm-container {
+    background-color: #c8dde6;
+    width: 300px;
+    height: 550px;
+    margin: 1px auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    border-bottom-right-radius: 600%;
+    border-bottom-left-radius: 600%;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+.atm-screen {
+    background-color: rgb(195, 200, 215);
+    color: black;
+    padding: 55px;
+    text-align: left;
+    font-size: 30px;
+    border-bottom: 2px solid #000;
+    border-top: 1.2px solid #000;
+    border-radius: 30px;
+}
+
+.atm-keypad {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.atm-button {
+    display: grid;
+    background-color: #f5f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid rgb(21, 186, 198);
+}
+
+.atm-button:hover {
+    background-color: rgb(62, 197, 231);
+}
+
+.diigital-font {
+    color: red;
+}
+
+.atm-outside {
+    background-color:#83a7b6;
+    width: 306px;
+    height: 560px;
+    margin: 40px auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
