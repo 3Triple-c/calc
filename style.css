@@ -68,3 +68,12 @@ body {
     border-bottom-right-radius: 50px;
     border-bottom-left-radius: 50px;
 }
+.button:active {
+    transform: translateY(1px);
+}
+
+@media only screen and (max-width: 600px) {
+    .calculator {
+        max-width: 90%;
+    }
+}
