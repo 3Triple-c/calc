@@ -27,6 +27,9 @@ body {
     border-bottom: 2px solid #000;
     border-top: 1.2px solid #000;
     border-radius: 30px;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 }
 
 .atm-keypad {
